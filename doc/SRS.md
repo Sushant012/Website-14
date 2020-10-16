@@ -116,8 +116,8 @@ The next chapters provide information about our vision based on the use case dia
 
 ### 2.1 Vision
 
-The goal of GreenClothaWay is to create an online trading marketplace for clothes which were offered for free.
-Users can offer their old clothes that they don´t like anymore. Other users can take these clothes for free. 
+The goal of GreenClothaWay is to create an online trading marketplace for clothes that were offered for free.
+Users can offer the old clothes that they don´t like anymore. Other users can take these clothes for free. 
 They have only to pay shipping costs or if it´s possible they can pick up the clothes.
 
 ## 2.2 Product perspective
@@ -146,23 +146,23 @@ Furthermore it is very important that this data is stored safely.
 
 #### 3.1.1 Communication between frontend and backend
 
-Django will facilitate the communication between frontend and backend a lot. 
+Django will facilitate communication between the frontend and backend a lot. 
 Django API can present information from the frontend to the backend easily. 
-It automatically  formats and sends data to the backend where django also administers the data. 
-Maybe it will be necessery to use JSON in similar parts.
+It automatically formats and sends data to the backend where Django also administers the data. 
+Maybe it will be necessary to use JSON in similar parts.
 
 
 #### 3.1.2 Store and get data
 
 After data is processed from the backend it will be stored in a PostgreSQL Database.
-A Database allows to filter data, what is important for customers, in order to filter all products by size, colour, etc.
+A Database allows us to filter data, what is important for customers, in order to filter all products by size, colour, etc.
 
 ### 3.2 Functionality – User Interface
 
 The frontend provides a user interface for the marketplace. This user interface includes a product overview with filter options, a shopping cart, user information and communication with other members. 
-The product overview includes filter options which allows customers to filter products by colour, size, type, etc.
+The product overview includes filter options that allow customers to filter products by color, size, type, etc.
 Furthermore the product overview implements a Tinder-like filter mode which implements swiping. 
-Clothes on which a user swiped yes will be added to a seperate overview.
+Clothes on which a user swiped yes will be added to a separate overview.
 
 #### 3.2.1 User system
 
